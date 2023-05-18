@@ -17,7 +17,6 @@ function App() {
   const [errorMsg, setErrorMsg] = useState();
 
   const calculateResult=()=> {
-    console.log(rows);
     let result = rows.map((e) => {
       if (e.enable) {
         if (e.sign == "minus") {
@@ -29,7 +28,6 @@ function App() {
       }
     }).reduce((a, b) => a + b);
     setResult(result);
-    console.log(result);
 }
 
 useEffect(() => {
@@ -74,7 +72,6 @@ useEffect(() => {
         }
         : e
     })
-    console.log(newRows);
     setRows(
       newRows
     )
