@@ -95,7 +95,8 @@ useEffect(() => {
           : e
       })
     )
-    setDirty((e)=>!e)
+    setDirty((e)=>!e);
+    setErrorMsg("");
   }
 
   return (

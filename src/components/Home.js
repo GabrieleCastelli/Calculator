@@ -21,8 +21,8 @@ function Home(props) {
 function Result(props) {
     return (
         <Row className='justify-content-center align-items-center mb-5'>
-            <Col className='col-7'>
-                <input value={props.result} type="number" className="form-control" placeholder="0" disabled={true} />
+            <Col className='col-7 ms-3'>
+                <input value={props.result} type="text" className="form-control" placeholder="0" disabled={true} />
             </Col>
         </Row>
     );
