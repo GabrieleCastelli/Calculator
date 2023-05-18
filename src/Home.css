@@ -1,0 +1,12 @@
+#custom{
+  background-image: url(./images/image.png);
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+  border-radius: 15px;
+  /*box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  box-shadow: 3px 3px rgba(105, 110, 6, 0.5), -1em 0 .4em olive;
+*/
+box-shadow: 17px 17px 31px 0px rgba(0,0,0,0.46);
+}
